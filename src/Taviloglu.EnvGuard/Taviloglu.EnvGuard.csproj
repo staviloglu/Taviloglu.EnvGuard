@@ -8,8 +8,9 @@
 		<PackageId>Taviloglu.EnvGuard</PackageId>
 		<Version>1.0.0</Version>
 		<Authors>Sinan TAVILOGLU</Authors>
-		<PackageDescription>Fail-fast environment variable loader and validator for .NET applications.</PackageDescription>
+		<PackageDescription>Fail-fast environment variable loader and validator for .NET applications.</PackageDescription>				
 		<RepositoryUrl>https://github.com/staviloglu/Taviloglu.EnvGuard</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/staviloglu/Taviloglu.EnvGuard</PackageProjectUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageTags>environment variables configuration validation failfast</PackageTags>
 		<RepositoryType>git</RepositoryType>
