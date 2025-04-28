@@ -64,13 +64,13 @@ using Taviloglu.EnvGuard.Attributes;
 
 public class MyEnvironmentVariables : EnvGuardBase
 {
-    [EnvGuardAttribute("DB_CONNECTION_STRING")]
+    [EnvGuard("DB_CONNECTION_STRING")]
     public static string DbConnectionString { get; private set; }
 
-    [EnvGuardAttribute("ENABLE_FEATURE_X")]
+    [EnvGuard("ENABLE_FEATURE_X")]
     public static bool EnableFeatureX { get; private set; }
 
-    [EnvGuardAttribute("CACHE_EXPIRATION_SECONDS", isRequired: false)]
+    [EnvGuard("CACHE_EXPIRATION_SECONDS", isRequired: false)]
     public static int? CacheExpirationSeconds { get; private set; }
 }
 ```
