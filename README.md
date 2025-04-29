@@ -67,7 +67,7 @@ public class MyEnvironmentVariables : EnvGuardBase
     [EnvGuard("DB_CONNECTION_STRING")]
     public static string DbConnectionString { get; private set; }
 
-    [EnvGuard("ENABLE_FEATURE_X")]
+    [EnvGuard("ENABLE_FEATURE_X", description:"Enable or disable feature x")]
     public static bool EnableFeatureX { get; private set; }
 
     [EnvGuard("CACHE_EXPIRATION_SECONDS", isRequired: false)]
